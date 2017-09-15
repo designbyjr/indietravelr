@@ -4,7 +4,7 @@
 				<img src="LOGO.svg" alt="indie traveller logo" id="logo-box">
 				<img src="INDIE-TRAVELR.svg" alt="indie traveller logo name" id="logo">
 			</a>
-			<div>
+			<!-- <div> -->
 				<ul class="nav-items-horizontal">
 					<li class="nav-item nav-hackers">
 						<a href="" class="nav-link">Travel Hackers</a>
@@ -32,26 +32,26 @@
 					</li>
 				</ul>
 				<ul class="nav-items-dropdown">
-					<li class="nav-item nav-hackers">
+					<li class="nav-dropdown nav-hackers">
 						<a href="" class="nav-link">Travel Hackers</a>
 					</li>
-					<li class="nav-item nav-dest">
+					<li class="nav-dropdown nav-dest">
 						<a href="" class="nav-link">Destinations</a>
 					</li>
-					<li class="nav-item nav-tools">
+					<li class="nav-dropdown nav-tools">
 						<a href="" class="nav-link">Tools Etc</a>
 					</li>
-					<li class="nav-item nav-community">
+					<li class="nav-dropdown nav-community">
 						<a href="" class="nav-link">Community</a>
 					</li>
-					<li class="nav-item nav-contribute">
+					<li class="nav-dropdown nav-contribute">
 						<a href="" class="nav-link">Contribute</a>
 					</li>
-					<li class="nav-item nav-book">
+					<li class="nav-dropdown nav-book">
 						<a href="" class="nav-link">Book Now</a>
 					</li>
 				</ul>
-			</div>
+			<!-- </div> -->
 			<div class="nav-btns">
 				<!-- <button class="book-now-btn"><span class="book-now">BOOK NOW</span></button> -->
 				<button class="book-now-btn"><span class="book-now">LOG IN</span></button>
