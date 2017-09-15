@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){var n=!1;$(".nav-more, .nav-menu").click(function(){0==n?($(".nav-items-dropdown").css("display","flex"),n=!0):($(".nav-items-dropdown").css("display","none"),n=!1)})});
