@@ -18,7 +18,7 @@ ul{
 .title-bar-content{
 	height: 56px;
 	align-items: center;
-	width:calc(100% - 350px)!important;
+	/*	*/
 	display: flex;
 
 }
@@ -26,23 +26,15 @@ ul{
 	display: flex;
 }
 #logo{
-	margin-right: -3px;
-	margin-left: 15px;
-	padding-top: 7px;
-	height: 13px;
-    width: 90px;
+	margin-left: 12px;
+	padding-top: 13px;
+	height: 0.7em;
 }
 #logo-box{
-	margin-top: 2px;
-	width: 24px;
-    height: 24px;
+	margin-top: 4px;
+    height: 1.8em;
 }
 
-#logotwo{
-	height: 13px;
-    width: 8px;
-    padding-top: 7px;
-}
 
 .nav-items-horizontal{
 	display: flex;
@@ -71,6 +63,17 @@ ul{
 	font-size: 14px;
 	font-weight: 600;
 
+}
+
+.nav-more{
+	color: #1c425e;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 3px;
+}
+.nav-expand-arrow{
+	height: 0.70em;
+    padding-left: 5px;
 }
 
 .nav-book{
@@ -123,6 +126,49 @@ ul{
    font-weight: 600;
 }
 
+@media (min-width: 1091px) {
+	.nav-item.nav-more{
+		display: none;
+	}
+}
+
+@media (max-width: 1091px){
+	.nav-item.nav-book{
+		display:none;
+	}
+}
+@media (max-width: 997px){
+	.nav-item.nav-contribute{
+		display:none;
+	}
+	.nav-item.nav-community{
+		display: none;
+	}
+}
+
+@media (max-width: 790px){
+	.nav-item.nav-tools{
+		display:none;
+	}
+	.nav-item.nav-dest{
+		display:none;
+	}
+	
+}
+
+@media (max-width: 600px){
+	.nav-item.nav-more{
+		display:none;
+	}
+	.nav-item.nav-hackers{
+		display: none;
+	}
+	.nav-item.nav-menu>img{
+		height: 1em;
+    	vertical-align: bottom;
+	}
+	
+}
 
 
 
