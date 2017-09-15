@@ -167,7 +167,15 @@ ul{
 		height: 1em;
     	vertical-align: bottom;
 	}
-	
+	.book-now-btn{
+		height: 28px;
+    	width: 58px;
+	}
+
+	.book-now-btn span{
+		height: 24px;
+    	width: 54px;
+	}
 }
 
 
