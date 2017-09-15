@@ -169,12 +169,13 @@ ul{
 	}
 	.book-now-btn{
 		height: 28px;
-    	width: 58px;
+    	width: 60px;
 	}
 
 	.book-now-btn span{
-		height: 24px;
+		height: 23px;
     	width: 54px;
+    	margin-left: 1px;
 	}
 }
 
