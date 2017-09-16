@@ -15,7 +15,7 @@
 </head>
 <body>
 	@include('layouts.title-block')
-	
+
 	@include('layouts.herodiv')
 </body>
 </html>

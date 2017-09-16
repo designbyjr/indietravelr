@@ -164,7 +164,8 @@ ul{
 	margin-top: 90px;
 	background-color: rgba(255,255,255, 0.9);
 	padding: 20px;
-	opacity: 1;
+	font-family: 'Open Sans';
+
 }
 
 @media (min-width: 1091px){
