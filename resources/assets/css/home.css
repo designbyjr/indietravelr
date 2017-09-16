@@ -61,6 +61,7 @@ ul{
 	margin:0;
 	padding:0;
 	z-index: 100;
+	background: white;
 }
 .nav-item{
 	display: list-item;
