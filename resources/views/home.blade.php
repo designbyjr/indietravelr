@@ -14,6 +14,8 @@
 	<title>IndieTravelr - A travel hacking community</title>
 </head>
 <body>
-	@extends('layouts.title-block')
+	@include('layouts.title-block')
+	
+	@include('layouts.herodiv')
 </body>
 </html>

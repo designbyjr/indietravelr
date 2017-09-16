@@ -1,3 +1,4 @@
+
 <div class="title-bar">
 		<div class="title-bar-content">
 			<a href="" class="logo-link">
@@ -19,7 +20,7 @@
 						<a href="" class="nav-link">Community</a>
 					</li>
 					<li class="nav-item nav-courses">
-						<a href="" class="nav-link">How To Hack</a>
+						<a href="" class="nav-link">How To Travel Hack</a>
 					</li>
 					<li class="nav-item nav-book">
 						<a href="" class="nav-link">Book Now</a>
@@ -45,7 +46,7 @@
 						<a href="" class="nav-link">Community</a>
 					</li>
 					<li class="nav-dropdown nav-courses">
-						<a href="" class="nav-link">How To Hack</a>
+						<a href="" class="nav-link">How To Travel Hack</a>
 					</li>
 					<li class="nav-dropdown nav-book">
 						<a href="" class="nav-link">Book Now</a>
