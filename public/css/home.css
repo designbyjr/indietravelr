@@ -162,11 +162,17 @@ ul{
 	margin-right: auto;
 	height: 255px;
 	margin-top: 90px;
-	background-color: rgba(255,255,255, 0.9);
-	padding: 20px;
-	font-family: 'Open Sans';
 
 }
+.thbhidden{
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	margin-top: 155px;
+
+}
+
 
 @media (min-width: 1091px){
 	.nav-item.nav-more,
@@ -225,7 +231,8 @@ ul{
 
 @media (max-width: 600px){
 	.nav-item.nav-more,
-	.nav-item.nav-hackers{
+	.nav-item.nav-hackers,
+	.thb{
 		display:none;
 	}
 	
@@ -250,6 +257,9 @@ ul{
 	.nav-items-dropdown{
 		left: calc(100% - 290px);
 
+	}
+	.thbhidden{
+		display: inline-block;
 	}
 
 }
