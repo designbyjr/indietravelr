@@ -13,13 +13,13 @@
 						<a href="" class="nav-link">Destinations</a>
 					</li>
 					<li class="nav-item nav-tools">
-						<a href="" class="nav-link">Tools Etc</a>
+						<a href="" class="nav-link" alt="resources like tools and Guides">Resources</a>
 					</li>
 					<li class="nav-item nav-community">
 						<a href="" class="nav-link">Community</a>
 					</li>
-					<li class="nav-item nav-contribute">
-						<a href="" class="nav-link">Contribute</a>
+					<li class="nav-item nav-courses">
+						<a href="" class="nav-link">How To Hack</a>
 					</li>
 					<li class="nav-item nav-book">
 						<a href="" class="nav-link">Book Now</a>
@@ -39,13 +39,13 @@
 						<a href="" class="nav-link">Destinations</a>
 					</li>
 					<li class="nav-dropdown nav-tools">
-						<a href="" class="nav-link">Tools Etc</a>
+						<a href="" class="nav-link" alt="resources like tools and Guides">Resources</a>
 					</li>
 					<li class="nav-dropdown nav-community">
 						<a href="" class="nav-link">Community</a>
 					</li>
-					<li class="nav-dropdown nav-contribute">
-						<a href="" class="nav-link">Contribute</a>
+					<li class="nav-dropdown nav-courses">
+						<a href="" class="nav-link">How To Hack</a>
 					</li>
 					<li class="nav-dropdown nav-book">
 						<a href="" class="nav-link">Book Now</a>

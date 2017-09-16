@@ -169,13 +169,13 @@ ul{
 	}
 }
 @media (max-width: 997px){
-	.nav-item.nav-contribute{
+	.nav-item.nav-courses{
 		display:none;
 	}
 	.nav-item.nav-community{
 		display: none;
 	}
-	.nav-dropdown.nav-contribute,
+	.nav-dropdown.nav-courses,
 	.nav-dropdown.nav-community{
 		display: block;
 	}
