@@ -2,12 +2,29 @@
 	font-family: 'Open Sans','Helvetica Neue',Helvetica,sans-serif;
 }
 
+@font-face {
+/*  font-family: chalkdust;
+  src: local("chalkdust"),
+       url(../chalkdust-webfont.woff);
+  font-weight: bold; */
+}
+
 body{
 	padding: 0;
 	margin:0;
 }
 ul{
 	list-style: none;
+}
+
+h2{
+	/*font-family:chalkdust;*/
+	font-size: 28px;
+	padding-top: 0;
+	margin: 10px;
+	/*line-height: 0.8em;*/
+	color:#61a8ca;
+	text-align: center;
 }
 
 .title-bar{
@@ -149,12 +166,13 @@ ul{
 
 .hero-div{
 	display: flex;
-	/*background-image: url('../bckrd.jpg');
+	background-image: url('../bckgrd.jpeg');
 	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center top;
-	opacity: 0.8;*/
-	min-height: 600px;
+	background-size: cover;
+	background-position: center 48%;
+	
+	min-height: 620px;
+	
 }
 
 .thb{
@@ -170,10 +188,42 @@ ul{
 	margin-right: auto;
 	height: 180px;
 	width: 355px;
-	margin-top: 95px;
-
+	margin-top: 125px;
 }
 
+.home-intro{
+	display: flex;
+	/*background-color: #2e4a63;*/
+	background-image: url('../backmountain.jpg');
+	height: 800px;
+	justify-content: center;
+	align-content: center;
+	margin-top:2px;
+
+	
+}
+.home-introbox{
+	background-color: orange;
+	height: 150px;
+	/*width: 55%;*/
+	margin-top: -110px;
+	border-radius: 5px;
+}
+
+.home-introbox p{
+	font-size: 20px;
+	line-height: 1.4;
+	margin-top: 0;
+	margin-left: 50px;
+	margin-right: 10px;
+	margin-bottom: 0;
+}
+
+.home-introbox p,h2{
+	color:black;
+	font-size: 18px;
+
+}
 
 @media (min-width: 1091px){
 	.nav-item.nav-more,

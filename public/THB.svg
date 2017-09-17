@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="388px" height="180px" viewBox="0 0 388 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="387px" height="180px" viewBox="0 0 387 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
     <title>Travel Hack Like a p</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="42" font-family="Phosphate-Inline, Phosphate" letter-spacing="2.8599999" font-weight="normal">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="42" font-family="Phosphate-Solid, Phosphate" letter-spacing="2.8599999" font-weight="normal">
         <g id="Artboard" transform="translate(-7.000000, -10.000000)">
             <text id="Travel-Hack-Like-a-p">
-                <tspan x="58.8400006" y="39" fill="#EA0101">Travel  Hack</tspan>
-                <tspan x="80.7660006" y="89" fill="#EA0101">Like a pro.</tspan>
-                <tspan x="6.47700089" y="139" fill="#016BEA">Earn Like A Guru.</tspan>
-                <tspan x="397.522999" y="139" font-family="Beirut" font-weight="bold" fill="#EA0101"></tspan>
-                <tspan x="7.61500079" y="189" fill="#EA01B5">Become a Legend</tspan>
-                <tspan x="384.876999" y="189" fill="#EA01B5">.</tspan>
+                <tspan x="58.8400006" y="39" fill="#2E4A63">Travel  Hack</tspan>
+                <tspan x="80.7660006" y="89" fill="#2E4A63">Like a pro.</tspan>
+                <tspan x="6.47700089" y="139" fill="#48A9CE">Earn Like A Guru.</tspan>
+                <tspan x="6.18500084" y="189" fill="#FFFFFF">Become a Legend.</tspan>
             </text>
         </g>
     </g>
