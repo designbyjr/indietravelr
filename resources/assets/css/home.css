@@ -203,9 +203,10 @@ h2{
 	
 }
 .home-introbox{
-	background-color: orange;
+	/*background-color: orange;*/
+	background-image: -webkit-linear-gradient(left, rgb(224, 82, 160), rgb(241, 92, 65));
 	height: 150px;
-	/*width: 55%;*/
+	width: 45%;
 	margin-top: -110px;
 	border-radius: 5px;
 }
@@ -221,7 +222,7 @@ h2{
 
 .home-introbox p,h2{
 	color:black;
-	font-size: 18px;
+	font-size: 20px;
 
 }
 
