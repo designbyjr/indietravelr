@@ -4,14 +4,18 @@
 </div>
 <section class="home-intro">
 	<div class="home-introbox">
-		<h2>SIGN UP FOR TIPS & TRICKS FROM THE BEST HACKERS</h2>
-		<form action="">
-			<input type="text" name="first">
-			<input type="text" name="surname">
+		<h2>GET INSIDER INFORMATION FROM THE BEST HACKERS</h2>
+		<p>Sign up for our travel hacker interviews, guides, tips to become a Legand.
+		</p>
+		<form action="" id="tipsform">
+			{{csrf_field()}}
+			<input type="text" name="first" placeholder="First Name">
+			<input type="email" name="email" placeholder="Email">
 			<select name="country" id="">
-				<option value=""></option>
+				<option value="Country" disabled selected>Country</option>
 			</select>
-			<input type="submit" name="Get Travel Tips">
+			<input type="submit" name="Get Travel Tips" value="Get Travel Tips">
 		</form>
+		<p>We never Spam!</p>
 	</div>
 </section>
