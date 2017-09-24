@@ -22,8 +22,10 @@ input, select{
 	padding: 5px;
 	height: 34px;
 	margin:10px;
+	font-size: 16px;
 
 }
+
 
 h2{
 	/*font-family:chalkdust;*/
@@ -178,7 +180,6 @@ h2{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center 47%;
-	
 	min-height: 650px;
 	
 }
@@ -204,10 +205,11 @@ h2{
 	/*background-color: #e3e2df;*/
 	background-image: url('../backgroundmap.jpg');
 	background-size: cover;
-	height: 600px;
-	justify-content: center;
-	align-content: center;
+	height: 675px;
+	/*justify-content: center;
+	align-content: center;*/
 	margin-top:0px;
+	flex-flow: column;
 
 	
 }
@@ -216,7 +218,7 @@ h2{
 	/*background-image: -webkit-linear-gradient(left, rgb(224, 82, 160), rgb(241, 92, 65));*/
 	height: 180px;
 	width: 70%;
-	margin-top: -155px;
+	margin: -155px auto 20px;
 	border-radius: 5px;
 }
 
@@ -238,6 +240,20 @@ h2{
 	letter-spacing: 1px;
 	margin-bottom: 5px;
 
+}
+
+.home-intro h3,
+.home-blog h3,
+.home-tips h3{
+	display: block;
+	margin-left: 10%;
+	font-size: 14px;
+	background-color: #4799eb;
+	border-radius: 2px;
+	padding:4px 8px;
+	color: white;
+	max-width: 160px;
+    text-align: center
 }
 
 #tipsform{
@@ -271,11 +287,153 @@ h2{
 	font-size: 18px;
 }
 
+.interviews,
+.blogs{
+	display: flex;
+	justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.interviews{ 
+	height: 68%; 
+	flex-direction: row;
+}
+
+.interview-blocks{
+	width: 23%;
+	background-color: white;
+	color: #1c425e;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	border-radius: 3px;
+	border: 1px solid #f64c72;
+}
+
+.interview-blocks svg{
+	height: 15px;
+	margin-left: 8px;
+	margin-top: 20px;
+	vertical-align: baseline;
+	display: flex;
+}
+
+.div-flexbox{
+	display: flex;
+}
+
+.interview-blocks .div-flexbox{
+	border-top: 1px solid #f64c72;
+}
+
+.div-imagebox{
+	display: flex;
+	flex-direction: column;
+}
+
+a.a-imagebox, .tip-blocks{
+	width:  340px;
+	height: 200px;
+}
+.tips{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 25px;
+	margin-top:10px;
+}
+
+.tip-blocks{
+	background-image: url('../backgroundmap.jpg');
+}
+
+.interview-number{
+	width:37%;
+}
+
+.div-blogbox img{
+	width:  340px;
+	height: 200px;
+}
+
+.home-blog,
+.home-tips{
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.flex-end{
+	flex-direction: row;
+	align-self: flex-end;
+	margin-right:10%;
+}
+
+.flex-end a{
+	color: white;
+	background-color: #242554;
+ 	margin-top:20px;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.flex-end svg{
+	height: 14px;
+}
+
+.blogs{
+	/*height: 70%;*/
+}
+
+.div-blogbox{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.footer-row{
+	background-color: #242554;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	/*width: 100%;*/
+	padding:20px;
+	padding-right: 0;
+}
+
+.footer-div{
+
+	display: flex;
+	flex-direction: column;
+}
+.footer-div a{
+	display: block;
+	margin:5px;
+	outline: none;
+	text-decoration: none;
+	color: white;
+	
+}
+
+@media (max-width: 1220px){
+	.home-blog{
+		height:700px;
+	}
+	h4,p{
+		text-align: center;
+	}
+}
+
 @media (min-width: 1091px){
 	.nav-item.nav-more,
 	.nav-dropdown{
 		display: none;
 	}
+
 }
 
 @media (max-width: 1091px) {
@@ -292,6 +450,29 @@ h2{
 	.nav-dropdown.nav-book{
 		display: block;
 	}
+
+	.div-blogbox img{
+		width: 100%;
+		height: 45vh;
+	}
+	.div-blogbox{
+		width: 100%;
+		margin-left: 7px;
+		margin-right: 7px;
+	}
+	.flex-break{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.tips{
+		flex-direction: column;
+	}
+	.tip-blocks{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
 }
 @media (max-width: 997px){
 	.nav-item.nav-courses{
@@ -306,6 +487,16 @@ h2{
 	}
 	.nav-items-dropdown{
 		left: calc(100% - 320px);
+	}
+	.home-introbox{
+		width: 100%;
+		border-radius: 0;
+	}
+	.div-blogbox img{
+		height: 30vh;
+	}
+	.tip-blocks{
+		width: 42vw;
 	}
 }
 
@@ -322,7 +513,80 @@ h2{
 	.nav-items-dropdown{
 		left: calc(100% - 325px);
 	}
+	.home-blog{
+		height: 100%;
+	}
+	.blogs{
+		justify-content: unset;
+		flex-direction: column;
+		
+	}
+	.div-blogbox{
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+		
+	}
+	.div-blogbox img{
+		height: 40%;
+		width: 98%;
+		margin-left: 1%;
+	}
+	h4,p{
+		text-align: center;
+	}
+	#tipsform{
+		flex-direction: column;
+	}
 	
+	#tipsform input[type='text'], 
+	input[type='email']{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#tipsform select{
+		width: 82%;
+		margin-left: 10%;
+	}
+	#tipsform input[type='submit']{
+		width: 88%;
+		margin-left: 7%;
+		-webkit-appearance: none;
+		border-radius: 0;
+		border-radius: 5px;
+	}
+
+	.home-introbox{
+		height: 75%;
+	}
+
+	.home-intro{
+		height: 100%;
+		padding-bottom: 25px;
+	}
+
+	.interviews{
+		height: 100%;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.interview-blocks{
+		display: block;
+		min-height: 430px;
+		min-width: 350px;
+		margin-top: 25px;
+	}
+
+	/*.flex-centre{
+		align-self: center;
+	}*/
+
+	
+
+
 	
 }
 
@@ -357,6 +621,24 @@ h2{
 	}
 	.thbhidden{
 		display: inline-block;
+	}
+	
+	.tip-blocks{
+		/*height: 60vh;
+		width: 70vw;*/
+		width: 80vw;
+	}
+	.flex-break, .tips{
+		flex-direction: column;
+		justify-content: center;
+		
+		margin-right: auto;
+		margin-left: auto;
+
+	}
+	.home-tips{
+		height: unset;
+		justify-content: center;
 	}
 
 }
