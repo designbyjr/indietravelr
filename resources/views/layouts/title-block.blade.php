@@ -1,7 +1,7 @@
 
 <div class="title-bar">
 		<div class="title-bar-content">
-			<a href="" class="logo-link">
+			<a href="/" class="logo-link">
 				<img src="LOGO.svg" alt="indie traveller logo" id="logo-box">
 				<img src="INDIE-TRAVELR.svg" alt="indie traveller logo name" id="logo">
 			</a>
@@ -11,7 +11,7 @@
 						<a href="" class="nav-link">Travel Hackers</a>
 					</li>
 					<li class="nav-item nav-dest">
-						<a href="" class="nav-link">Destinations</a>
+						<a href="/destinations" class="nav-link">Destinations</a>
 					</li>
 					<li class="nav-item nav-tools">
 						<a href="" class="nav-link" alt="resources like tools and Guides">Resources</a>
@@ -37,7 +37,7 @@
 						<a href="" class="nav-link">Travel Hackers</a>
 					</li>
 					<li class="nav-dropdown nav-dest">
-						<a href="" class="nav-link">Destinations</a>
+						<a href="/destinations" class="nav-link">Destinations</a>
 					</li>
 					<li class="nav-dropdown nav-tools">
 						<a href="" class="nav-link" alt="resources like tools and Guides">Resources</a>

@@ -26,7 +26,6 @@ input, select{
 
 }
 
-
 h2{
 	/*font-family:chalkdust;*/
 	font-size: 28px;
@@ -640,12 +639,37 @@ a.a-imagebox, .tip-blocks{
 		height: unset;
 		justify-content: center;
 	}
-
 }
 
 
+.column{
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+	text-align: center;
+}
 
+.row{
+	flex-direction: row;
+	text-align: center;
+}
 
+.dest-hero{
+		min-height: 350px;
+		background: url('../trees.jpeg') no-repeat;
+		background-size: 100% 100%;
+		background-position: center bottom;
+}
 
+.dest-hero h1{
+	color:#1c425e;
+	font-size: 76px;
+	margin-bottom: 0px;
+	margin-top: 0px
+}
 
-
+.dest-hero h3{
+	color: white;
+	margin-top: 5px;
+	font-size: 1.3em;
+}

@@ -14,5 +14,20 @@ let mix = require('laravel-mix');
 mix.combine([
 	'resources/assets/js/home.js'
 	], 'public/js/home.js')
-   .sass('resources/assets/sass/app.scss', 'public/css')
-   .styles('resources/assets/css/home.css', 'public/css/home.css');
+   .sass('resources/assets/sass/app.scss', 'public/css');
+
+//Home css style   
+mix.styles([
+	'resources/assets/css/home.css',
+	'resources/assets/css/menublock.css'
+	], 'public/css/home.css');
+
+
+
+
+
+
+
+mix.browserSync({
+    proxy: 'localhost:8000'
+});
