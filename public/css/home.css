@@ -175,7 +175,7 @@ h2{
 
 .hero-div{
 	display: flex;
-	background-image: url('../bckgrd.jpeg');
+	background-image: url('../bckgrdmin.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center 47%;
